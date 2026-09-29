@@ -157,6 +157,6 @@ Mät själva i DevTools innan ni ändrar — resten av sidan klarar kravet, så 
 2. Pusha branchen: `git push -u origin fix/grupp-N`
 3. Öppna en **Pull Request mot `dev`** på GitHub.
 4. Fyll i PR-mallen. Kryssa bara i de tickets ni faktiskt gjort — en ärlig PR är lättare att granska än en komplett.
-5. Skriv in PR-länken i kanalen.
+5. Skriv in PR-länken i kanalen #fjs26.
 
 **PR:en ska inte mergas.** Den ligger kvar för granskning. En annan grupp tar över den, och hur det går till står i [REVIEW.md](REVIEW.md).
