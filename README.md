@@ -155,8 +155,23 @@ Mät själva i DevTools innan ni ändrar — resten av sidan klarar kravet, så 
    - **Validatorn.** [validator.w3.org](https://validator.w3.org/), noll fel.
 
 2. Pusha branchen: `git push -u origin fix/grupp-N`
-3. Öppna en **Pull Request mot `dev`** på GitHub.
-4. Fyll i PR-mallen. Kryssa bara i de tickets ni faktiskt gjort — en ärlig PR är lättare att granska än en komplett.
-5. Skriv in PR-länken i kanalen #fjs26.
+
+3. Gå till repot på GitHub. Klicka **Compare & pull request** i den gula rutan, eller **Pull requests → New pull request**.
+
+   Ni står nu i ett **formulär**. Någon PR finns inte än.
+
+4. **Byt base från `main` till `dev`.** GitHub föreslår alltid `main`, eftersom det är default branch. Missar ni bytet jämförs ert arbete mot en gren utan Kims kod, och diffen blir hela projektet i stället för era ändringar.
+
+5. Fyll i PR-mallen. Kryssa bara i de tickets ni faktiskt gjort — en ärlig PR är lättare att granska än en komplett.
+
+6. Klicka **Create pull request**. Först nu skapas PR:en och får ett nummer.
+
+7. Kopiera adressen ur webbläsarens adressfält och klistra in den i **#fjs26**. Den ska se ut så här:
+
+   ```
+   https://github.com/sandra-chas-academy/workshop-reseplaneraren/pull/3
+   ```
+
+   Slutar länken på en **siffra** är det PR:en. Innehåller den `new` eller `compare` är det formuläret — då landar granskarna på en tom sida och kan av misstag skapa en dubblett av er PR.
 
 **PR:en ska inte mergas.** Den ligger kvar för granskning. En annan grupp tar över den, och hur det går till står i [REVIEW.md](REVIEW.md).
