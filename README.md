@@ -174,4 +174,19 @@ Mät själva i DevTools innan ni ändrar — resten av sidan klarar kravet, så 
 
    Slutar länken på en **siffra** är det PR:en. Innehåller den `new` eller `compare` är det formuläret — då landar granskarna på en tom sida och kan av misstag skapa en dubblett av er PR.
 
+8. **Granska en annan grupps PR.** Er egen PR är halva uppgiften. Den andra halvan är att läsa någon annans kod med kravet i handen.
+
+   När alla PR:ar är uppe lägger Sandra ut ringen i **#fjs26** — vilken grupp ni granskar. Ni granskar aldrig er egen.
+
+   Ni bedömer inte om koden är snygg. Ni kontrollerar om ticketen är löst, mot dess **Klart när**. Det gör det lättare att anmärka: ni har inte en åsikt, ni har ett krav.
+
+   En regel går före alla andra: **hämta hem deras branch och kör koden.**
+
+   ```bash
+   git fetch origin
+   git switch fix/grupp-N
+   ```
+
+   En granskning som inte har kört koden är en gissning. Hela rutinen står i [REVIEW.md](REVIEW.md).
+
 **PR:en ska inte mergas.** Den ligger kvar för granskning. En annan grupp tar över den, och hur det går till står i [REVIEW.md](REVIEW.md).
