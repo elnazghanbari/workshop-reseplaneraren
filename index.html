@@ -9,29 +9,43 @@
 <body>
 
     <div class="topbar">
-        <div class="topbar-sok">
-            <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-                <circle cx="11" cy="11" r="6.5"/>
-                <line x1="15.8" y1="15.8" x2="21" y2="21"/>
-            </svg>
-            <span>Sök</span>
-        </div>
+        <button class="topbar-sok"> <!--Ändrar div till button, anchor till en länk-->
+            <a href="#" style="text-decoration: none; color:inherit">
+                <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                    <circle cx="11" cy="11" r="6.5"/>
+                    <line x1="15.8" y1="15.8" x2="21" y2="21"/>
+                </svg>
+                <span>Sök</span>
+            </a>
+        </button>
         <img src="img/logo.svg" class="logo">
-        <div class="topbar-meny">
-            <span>Meny</span>
-            <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-                <line x1="3" y1="6" x2="21" y2="6"/>
-                <line x1="3" y1="12" x2="21" y2="12"/>
-                <line x1="3" y1="18" x2="21" y2="18"/>
-            </svg>
-        </div>
+        <button class="topbar-meny"> <!--Ändrar div till button, anchor till en länk-->
+            <a href="#1" style="text-decoration: none; color:inherit">
+                <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+                <span>Meny</span>
+            </a>
+            
+        </button>
     </div>
 
     <div class="hero">
         <img src="img/tunnelbana-stockholm-1-1.jpg" class="hero-bild">
-        <div class="flikar">
-            <div class="flik aktiv">Sök resa</div>
-            <div class="flik">Sök avgångar</div>
+        <div class="flikar"> <!--Ändrar div till button, anchor till en länk-->
+            <button class="flik aktiv">
+                <a href="#2" style="text-decoration: none; color:inherit">
+                    Sök resa
+                </a>
+            </button>
+             
+            <button class="flik"><!--Ändrar div till button, anchor till en länk-->
+                <a href="#3" style="text-decoration: none; color:inherit">
+                    Sök avgångar
+                </a>                
+            </button> 
         </div>
     </div>
 
@@ -63,14 +77,52 @@
 
         <div class="fel"></div>
 
-        <div class="knapp">Sök resa</div>
+        <button style="text-decoration:none; " class="knapp">Sök resa</button>
     </form>
 
     <div class="genvagar">
-        <div class="genvag">Reseplanering<span class="pil">→</span></div>
+        <!--
+        <div class="genvag">Reseplanering <span class="pil">→</span></div>
         <div class="genvag">Biljetter<span class="pil">→</span></div>
         <div class="genvag">Kundservice<span class="pil">→</span></div>
-        <div class="genvag">Aktuellt<span class="pil">→</span></div>
+        <div class="genvag">Aktuellt<span class="pil">→</span></div>-->
+
+        <!--Gör om alla div till buttons-->
+
+
+        </button>
+        <button class="genvag"> <!--Ändrar div till button, anchor till en länk-->
+            <a href="#5" style="text-decoration:none; color:inherit ;"> <!--Tar bort underline och den blå färg från Anchor-->
+                <span class="pil">→</span>
+                Reseplanering
+            </a>
+
+        </button>
+
+        <button class="genvag"> <!--Ändrar div till button, anchor till en länk-->
+            <a href="#7" style="text-decoration:none; color:inherit ;"> <!--Tar bort underline och den blå färg från Anchor-->
+                <span class="pil">→</span>
+                Biljetter
+            </a>
+
+        </button>
+
+        <button class="genvag"> <!--Ändrar div till button, anchor till en länk-->
+            <a href="#6" style="text-decoration:none; color:inherit ;"> <!--Tar bort underline och den blå färg från Anchor-->
+                <span class="pil">→</span>
+                Kundservice
+            </a>
+
+        </button>
+        <button class="genvag"> <!--Ändrar div till button, anchor till en länk-->
+            <a href="#7" style="text-decoration:none; color:inherit ;"> <!--Tar bort underline och den blå färg från Anchor-->
+                <span class="pil">→</span>
+                Aktuellt
+            </a>
+
+        </button>
+
+    
     </div>
 
     <div class="trafik">

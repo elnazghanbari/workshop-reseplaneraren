@@ -24,12 +24,26 @@ body {
 
 .topbar-sok,
 .topbar-meny {
+    /* Nollställer webbläsarnes standardutseende*/ 
+    /*background: transparent;
+    border:none;
+    padding:0;
+    font:inherit;
+    color:inherit;*/
+
+    all:unset; /*Alternativ sätt*/ 
+
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    /*Sen lägga tillbaka de css style som kom innan vilke överrider 
+    kommandot all:unset och lägger in sin egna på grund av css cascade*/
+    
+    
+    
 }
 
 .ikon {
@@ -65,6 +79,8 @@ body {
 }
 
 .flik {
+    all:unset;
+
     padding: 14px 40px;
     font-size: 16px;
     font-weight: 700;
@@ -75,6 +91,7 @@ body {
 }
 
 .flik.aktiv {
+    
     background-color: #f1f2f3;
     color: #12151a;
     text-decoration: underline;
@@ -148,6 +165,8 @@ body {
 }
 
 .knapp {
+    all:unset;
+
     background-color: #007bb5;
     color: #ffffff;
     font-size: 17px;
@@ -155,6 +174,7 @@ body {
     text-align: center;
     padding: 14px;
     cursor: pointer;
+    border:1px;
 }
 
 /* --- Genvägar --- */
@@ -165,6 +185,9 @@ body {
 }
 
 .genvag {
+    all:unset;
+    background-color: inherit;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
