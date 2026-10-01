@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div class="topbar">
+    <header class="topbar">
         <button type="button" class="topbar-sok">
             <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
                 <circle cx="11" cy="11" r="6.5"/>
@@ -25,8 +25,9 @@
                 <line x1="3" y1="18" x2="21" y2="18"/>
             </svg>
         </button>
-    </div>
+    </header>
 
+    <main>
     <div class="hero">
         <img src="img/tunnelbana-stockholm-1-1.jpg" class="hero-bild">
         <div class="flikar">
@@ -36,7 +37,7 @@
     </div>
 
     <form class="sokpanel" action="#reseplanering" method="get">
-        <div class="sokrubrik">Vart vill du åka?</div>
+        <h1 class="sokrubrik" id="reseplanering">Vart vill du åka?</h1>
 
         <div class="falt">
             <label class="etikett" for="from">Från</label>
@@ -66,15 +67,15 @@
         <button type="submit" class="knapp">Sök resa</button>
     </form>
 
-    <div class="genvagar">
+    <nav class="genvagar" aria-label="Huvudnavigation">
         <a class="genvag" href="#reseplanering">Reseplanering<span class="pil" aria-hidden="true">→</span></a>
         <a class="genvag" href="#biljetter">Biljetter<span class="pil" aria-hidden="true">→</span></a>
         <a class="genvag" href="#kundservice">Kundservice<span class="pil" aria-hidden="true">→</span></a>
         <a class="genvag" href="#aktuellt">Aktuellt<span class="pil" aria-hidden="true">→</span></a>
-    </div>
+    </nav>
 
-    <div class="trafik">
-        <div class="trafikrubrik">Trafikläget just nu</div>
+    <section class="trafik" aria-labelledby="traffic-heading">
+        <h2 class="trafikrubrik" id="traffic-heading">Trafikläget just nu</h2>
         <div class="uppdaterad">Uppdaterad idag 13:26</div>
 
         <div class="linjekort">
@@ -107,13 +108,14 @@
             <span class="linjenamn">Buss</span>
             <span class="status info"></span>
         </div>
-    </div>
+    </section>
+    </main>
 
-    <div class="fot">
+    <footer class="fot">
         <a class="fot-lank" href="#om-stadstrafiken">Om Stadstrafiken</a>
         <a class="fot-lank" href="#kontakta-oss">Kontakta oss</a>
         <a class="fot-lank" href="#tillganglighet">Tillgänglighet</a>
-    </div>
+    </footer>
 
 </body>
 </html>
