@@ -23,11 +23,7 @@ body {
     padding: 14px 16px;
 }
 
-.topbar:focus-visible {
-    outline:3px solid green; *
-    
 
-}
 
 .topbar-sok,
 .topbar-meny {
@@ -51,6 +47,11 @@ body {
     
     
     
+}
+
+.topbar-sok:focus-visible,
+.topbar-meny:focus-visible{
+    outline:2px solid black;
 }
 
 .ikon {
@@ -84,6 +85,9 @@ body {
     margin-top: -48px;
     position: relative;
 }
+.flikar:focus-visible{
+    outline:2px solid black;
+}
 
 .flik {
     all:unset;
@@ -102,6 +106,12 @@ body {
     background-color: #f1f2f3;
     color: #12151a;
     text-decoration: underline;
+}
+
+.flik:focus-visible,
+.flik-aktiv:focus-visible{
+    outline:2px solid black;
+
 }
 
 /* --- Sökpanel --- */
@@ -210,6 +220,10 @@ body {
 
 .genvag:last-child {
     border-bottom: 0;
+}
+
+.genvag:focus-visible{
+    outline:2px solid black;
 }
 
 .pil {
