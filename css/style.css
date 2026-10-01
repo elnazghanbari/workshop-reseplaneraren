@@ -306,3 +306,13 @@ a { color: inherit; text-decoration: none; }
     .linjekort:nth-of-type(7) { grid-column: 2; grid-row: 4; }
     .fot { display: flex; gap: 1.75rem; padding: 1rem max(2.5rem, calc((100% - 75rem) / 2)); }
 }
+
+/* Reflow at 320px and when the user enlarges text. */
+.flik { min-width: 0; white-space: normal; overflow-wrap: anywhere; }
+.falt-rad .falt { min-width: 0; }
+.input { min-width: 0; max-width: 100%; }
+@media (max-width: 24rem) {
+    .flik { flex: 1; padding-inline: .75rem; }
+    .linjekort { gap: .5rem; }
+    .storningslage { width: 100%; margin-left: 2rem; }
+}
