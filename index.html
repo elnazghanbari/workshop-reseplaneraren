@@ -46,24 +46,24 @@
 
         <div class="falt">
             <label for="falt" class="etikett">Från</label> <!--Ändrar div til label, använder divs class som label-->
-            <input type="text" id="falt" class="input">
+            <input type="adress" autocomplete="street-address" id="falt" class="input"> <!-- La till automcomplete, ger förslag på tidigare skrivna adresser -->
         </div>
 
         <div class="vaxla">⇅</div>
 
         <div class="falt">
             <label for="falt" class="etikett">Till</label>
-            <input id=type="text" class="input">
+            <input id=type="text" autocomplete="street-adress" class="input"> <!-- La till automcomplete, ger förslag på tidigare skrivna adresser -->
         </div>
 
         <div class="falt-rad">
             <div class="falt">
                 <label for="datum" class="etikett">Datum</label>
-                <input id="datum" type="text" class="input">
+                <input id="datum" type="date" class="input"> <!-- Ändrade type från text till date-->
             </div>
             <div class="falt">
                 <label for="tid" class="etikett">Tid</label>
-                <input id="tid" type="text" class="input">
+                <input id="tid" type="time" class="input"> <!-- Ändrade type från text till time-->
             </div>
         </div>
 
