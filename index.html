@@ -8,6 +8,20 @@
   </head>
   <body>
     <header>
+      <nav class="toppfalt">
+        <ul class="toppfalt-knappar">
+          <li class="knappar">
+            <a href="#" class="knappar-text">Privat</a>
+            <a href="#" class="knappar-text">Företag</a>
+          </li>
+          <li class="knappar">
+            <a href="#" class="knappar-text">English</a>
+            <a href="#" class="knappar-text">Teckenspråk</a>
+            <a href="#"class="knappar-text">Lättläst</a>
+            <a href="#"class="knappar-text">Logga in</a>
+          </li>
+        </ul>
+      </nav>
       <nav class="topbar">
         <button class="topbar-sok">
           <svg
@@ -23,7 +37,7 @@
           </svg>
           <span>Sök</span>
         </button>
-        <img src="img/logo.svg" class="logo" alt="logga for hemsidan"/>
+        <img src="img/logo.svg" class="logo" alt="logga for hemsidan" />
         <button class="topbar-meny">
           <span>Meny</span>
           <svg
@@ -44,57 +58,74 @@
 
     <main>
       <div class="hero">
-        <img src="img/tunnelbana-stockholm-1-1.jpg" class="hero-bild" alt="bild på stockholms tunnelbana"/>
+        <img
+          src="img/tunnelbana-stockholm-1-1.jpg"
+          class="hero-bild"
+          alt="bild på stockholms tunnelbana"
+        />
         <div class="flikar">
           <button class="flik aktiv">Sök resa</button>
           <button class="flik">Sök avgångar</button>
         </div>
       </div>
 
-      <fieldset>
-        <form class="sokpanel">
-          <div class="sokrubrik">Vart vill du åka?</div>
+      <section>
+        <fieldset>
+          <form class="sokpanel">
+            <div class="sokrubrik">Vart vill du åka?</div>
 
-          <div class="falt">
-            <label for="from" class="etikett">Från</label>
-            <input
-              type="text"
-              class="input"
-              id="from"
-              autocomplete="street-address"
-            />
-          </div>
+            <div class="resa-rad">
+              <div class="falt">
+                <label for="from" class="etikett">Från</label>
+                <input
+                  type="text"
+                  class="input"
+                  id="from"
+                  autocomplete="street-address"
+                />
+              </div>
 
-          <button class="vaxla">⇅</button>
+              <button
+                class="vaxla"
+                type="button"
+                aria-label="Byt plats på från och till"
+              >
+                ⇅
+              </button>
 
-          <div class="falt">
-            <label for="to" class="etikett">Till</label>
-            <input
-              type="text"
-              class="input"
-              id="to"
-              autocomplete="street-address"
-            />
-          </div>
-
-          <div class="falt-rad">
-            <div class="falt">
-              <label for="date" class="etikett">Datum</label>
-              <input type="date" class="input" id="date" />
+              <div class="falt">
+                <label for="to" class="etikett">Till</label>
+                <input
+                  type="text"
+                  class="input"
+                  id="to"
+                  autocomplete="street-address"
+                />
+              </div>
             </div>
-            <div class="falt">
-              <label for="tid" class="etikett">Tid</label>
-              <input type="time" class="input" id="tid" />
+            <div class="sok-actions">
+              <div class="falt-rad">
+                <div class="falt">
+                  <label for="date" class="etikett">Datum</label>
+                  <input type="date" class="input" id="date" />
+                </div>
+
+                <div class="falt">
+                  <label for="tid" class="etikett">Tid</label>
+                  <input type="time" class="input" id="tid" />
+                </div>
+              </div>
+
+              <div class="fel" role="alert">
+                Fyll i både avresehållplats och destination.
+              </div>
+              <br />
+
+              <button class="knapp" type="submit">Sök resa</button>
             </div>
-          </div>
-
-          <!--/*A11Y-4*/-->
-          <div class="fel" role="alert">Vänligen fyll i fältet</div>
-          <br />
-
-          <button class="knapp">Sök resa</button>
-        </form>
-      </fieldset>
+          </form>
+        </fieldset>
+      </section>
 
       <article>
         <div class="genvagar">
@@ -105,7 +136,7 @@
         </div>
       </article>
 
-      <article>
+      <section>
         <div class="trafik">
           <div class="trafikrubrik">Trafikläget just nu</div>
           <div class="uppdaterad">Uppdaterad idag 13:26</div>
@@ -147,7 +178,7 @@
             <span class="ok-text">Måttliga störningar</span>
           </div>
         </div>
-      </article>
+      </section>
     </main>
     <footer>
       <div class="fot">
