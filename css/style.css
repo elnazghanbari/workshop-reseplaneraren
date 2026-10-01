@@ -11,6 +11,7 @@ body {
     background-color: #ffffff;
 }
 
+
 /* --- Topbar --- */
 
 .topbar {
@@ -20,6 +21,12 @@ body {
     background-color: #007bb5;
     color: #ffffff;
     padding: 14px 16px;
+}
+
+.topbar:focus-visible {
+    outline:3px solid green; *
+    
+
 }
 
 .topbar-sok,
@@ -175,6 +182,10 @@ body {
     padding: 14px;
     cursor: pointer;
     border:1px;
+}
+
+.knapp:focus-visible{
+    outline:2px solid black;
 }
 
 /* --- Genvägar --- */
