@@ -254,3 +254,5 @@ body {
     padding: 8px 0;
     cursor: pointer;
 }
+
+.etikett { display: block; }

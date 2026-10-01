@@ -35,36 +35,36 @@
         </div>
     </div>
 
-    <div class="sokpanel">
+    <form class="sokpanel" action="#reseplanering" method="get">
         <div class="sokrubrik">Vart vill du åka?</div>
 
         <div class="falt">
-            <div class="etikett">Från</div>
-            <input type="text" class="input">
+            <label class="etikett" for="from">Från</label>
+            <input type="text" class="input" id="from" name="from">
         </div>
 
         <div class="vaxla">⇅</div>
 
         <div class="falt">
-            <div class="etikett">Till</div>
-            <input type="text" class="input">
+            <label class="etikett" for="to">Till</label>
+            <input type="text" class="input" id="to" name="to">
         </div>
 
         <div class="falt-rad">
             <div class="falt">
-                <div class="etikett">Datum</div>
-                <input type="text" class="input">
+                <label class="etikett" for="date">Datum</label>
+                <input type="text" class="input" id="date" name="date">
             </div>
             <div class="falt">
-                <div class="etikett">Tid</div>
-                <input type="text" class="input">
+                <label class="etikett" for="time">Tid</label>
+                <input type="text" class="input" id="time" name="time">
             </div>
         </div>
 
         <div class="fel"></div>
 
         <div class="knapp">Sök resa</div>
-    </div>
+    </form>
 
     <div class="genvagar">
         <div class="genvag">Reseplanering<span class="pil">→</span></div>
