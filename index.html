@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,31 @@
   </head>
   <body>
     <header>
-      <nav class="topbar">
+      <nav class="topfalt" aria-label="övrigalänkar">
+        <div class="topfalt-grupp">
+          <a href="index.html" aria-current="page">Privat </a>
+          <a href="foretag.html">Företag</a>
+        </div>
+
+        <div class="topfalt-grupp">
+          <a href="english.html" lang="en">English</a>
+          <a href="teckenspråk.html">Teckenspråk</a>
+          <a href="lattlast.html">Lättläst</a>
+          <a href="logga-in.html">Logga in</a>
+        </div>
+      </nav>
+      
+      <nav class="topbar" aria-label="Övriga länkar">
+        <img src="img/logo.svg" class="logo" />
+
+        <div class="desktop-meny">
+          <a href="reseplanering.html">Reseplanering</a>
+          <a href="biljetter.html">Biljetter</a>
+          <a href="kundservice.html">Kundservice</a>
+          <a href="aktuellt.html">Aktuellt</a>
+        </div>
+
+        <!-- sök  -->
         <button class="topbar-sok">
           <svg
             class="ikon"
@@ -23,7 +47,6 @@
           </svg>
           <span>Sök</span>
         </button>
-        <img src="img/logo.svg" class="logo" />
         <button class="topbar-meny">
           <span>Meny</span>
           <svg
