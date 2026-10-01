@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #12151a;
     background-color: #ffffff;
 }
@@ -19,28 +19,28 @@ body {
     justify-content: space-between;
     background-color: #007bb5;
     color: #ffffff;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
 }
 
 .topbar-sok,
 .topbar-meny {
     display: flex;
     align-items: center;
-    gap: 8px;
-    font-size: 16px;
+    gap: 0.5rem;
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
 }
 
 .ikon {
-    width: 22px;
-    height: 22px;
-    flex: 0 0 22px;
+    width: 1.375rem;
+    height: 1.375rem;
+    flex: 0 0 1.375rem;
 }
 
 .logo {
-    width: 52px;
-    height: 52px;
+    width: 3.25rem;
+    height: 3.25rem;
 }
 
 /* --- Hero --- */
@@ -53,20 +53,20 @@ body {
 .hero-bild {
     display: block;
     width: 100%;
-    height: 150px;
+    height: 9.375rem;
     object-fit: cover;
 }
 
 .flikar {
     display: flex;
-    padding: 0 16px;
+    padding: 0 1rem;
     margin-top: -48px;
     position: relative;
 }
 
 .flik {
-    padding: 14px 40px;
-    font-size: 16px;
+    padding: 0.875rem 2.5rem;
+    font-size: 1rem;
     font-weight: 700;
     background-color: #007bb5;
     color: #ffffff;
@@ -84,32 +84,32 @@ body {
 
 .sokpanel {
     background-color: #f1f2f3;
-    padding: 20px 16px 24px;
+    padding: 1.25rem 1rem 1.5rem;
 }
 
 .sokrubrik {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .falt {
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .etikett {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 0.375rem;
 }
 
 .input {
     width: 100%;
     font-family: inherit;
-    font-size: 16px;
-    padding: 13px 12px;
-    border: 1px solid #858b92;
+    font-size: 1rem;
+    padding: 0.8125rem 0.75rem;
+    border: 0.0625rem solid #858b92;
     background-color: #ffffff;
 }
 
@@ -119,7 +119,7 @@ body {
 
 .falt-rad {
     display: flex;
-    gap: 12px;
+    gap: 0.75rem;
 }
 
 .falt-rad .falt {
@@ -127,50 +127,50 @@ body {
 }
 
 .vaxla {
-    width: 36px;
-    height: 36px;
-    margin: 0 auto 12px;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin: 0 auto 0.75rem;
     border-radius: 50%;
     background-color: #007bb5;
     color: #ffffff;
-    font-size: 17px;
-    line-height: 36px;
+    font-size: 1.0625rem;
+    line-height: 2.25rem;
     text-align: center;
     cursor: pointer;
 }
 
 .fel {
-    padding: 12px;
-    border-left: 4px solid #c62828;
+    padding: 0.75rem;
+    border-left: 0.25rem solid #c62828;
     color: #9b1c1c;
     background-color: #ffffff;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 .knapp {
     background-color: #007bb5;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 700;
     text-align: center;
-    padding: 14px;
+    padding: 0.875rem;
     cursor: pointer;
 }
 
 /* --- Genvägar --- */
 
 .genvagar {
-    margin: 20px 16px;
-    border: 1px solid #e4e6e8;
+    margin: 1.25rem 1rem;
+    border: 0.0625rem solid #e4e6e8;
 }
 
 .genvag {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 14px;
-    font-size: 16px;
-    border-bottom: 1px solid #e4e6e8;
+    padding: 1rem 0.875rem;
+    font-size: 1rem;
+    border-bottom: 0.0625rem solid #e4e6e8;
     cursor: pointer;
 }
 
@@ -180,42 +180,42 @@ body {
 
 .pil {
     color: #007bb5;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 /* --- Trafikläget --- */
 
 .trafik {
-    padding: 8px 16px 24px;
+    padding: 0.5rem 1rem 1.5rem;
 }
 
 .trafikrubrik {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .uppdaterad {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #595f66;
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;
 }
 
 .linjekort {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
     background-color: #f1f2f3;
-    padding: 14px;
-    margin-bottom: 10px;
+    padding: 0.875rem;
+    margin-bottom: 0.625rem;
 }
 
 .linjeikon {
-    width: 24px;
-    height: 24px;
-    flex: 0 0 24px;
-    border-radius: 4px;
+    width: 1.5rem;
+    height: 1.5rem;
+    flex: 0 0 1.5rem;
+    border-radius: 0.25rem;
 }
 
 .tunnelbana { background-color: #12151a; }
@@ -225,15 +225,15 @@ body {
 
 .linjenamn {
     flex: 1 1 auto;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 700;
     white-space: nowrap;
 }
 
 .status {
-    width: 22px;
-    height: 22px;
-    flex: 0 0 22px;
+    width: 1.375rem;
+    height: 1.375rem;
+    flex: 0 0 1.375rem;
     border-radius: 50%;
 }
 
@@ -244,14 +244,14 @@ body {
 /* --- Fot --- */
 
 .fot {
-    border-top: 1px solid #e4e6e8;
-    padding: 16px;
+    border-top: 0.0625rem solid #e4e6e8;
+    padding: 1rem;
 }
 
 .fot-lank {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #595f66;
-    padding: 8px 0;
+    padding: 0.5rem 0;
     cursor: pointer;
 }
 
@@ -263,11 +263,11 @@ a { color: inherit; text-decoration: none; }
 .knapp { display: block; width: 100%; }
 .fot-lank { display: block; }
 
-:focus-visible { outline: 3px solid #12151a; outline-offset: 3px; box-shadow: 0 0 0 3px #fff; }
+:focus-visible { outline: 0.1875rem solid #12151a; outline-offset: 0.1875rem; box-shadow: 0 0 0 0.1875rem #fff; }
 
 [hidden] { display: none !important; }
 
-.storningslage { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.storningslage { display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; }
 .linjenamn { white-space: normal; min-width: 0; }
 .linjekort { flex-wrap: wrap; }
 .storningslage { margin-left: auto; }
@@ -275,28 +275,28 @@ a { color: inherit; text-decoration: none; }
 /* The full navigation and horizontal search need room for their content. */
 .utility, .desktop-nav { display: none; }
 @media (min-width: 64rem) {
-    .utility { display: block; background: #12151a; color: #fff; font-size: 14px; }
-    .utility-inner { max-width: 1280px; margin: auto; padding: 10px 40px; display: flex; justify-content: space-between; gap: 24px; }
-    .utility-inner > div { display: flex; flex-wrap: wrap; gap: 24px; }
-    .utility a[aria-current] { border-top: 2px solid #007bb5; font-weight: 700; }
-    .topbar { padding: 16px max(40px, calc((100% - 1200px) / 2)); gap: 32px; }
+    .utility { display: block; background: #12151a; color: #fff; font-size: 0.875rem; }
+    .utility-inner { max-width: 80rem; margin: auto; padding: 0.625rem 2.5rem; display: flex; justify-content: space-between; gap: 1.5rem; }
+    .utility-inner > div { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+    .utility a[aria-current] { border-top: 0.125rem solid #007bb5; font-weight: 700; }
+    .topbar { padding: 1rem max(2.5rem, calc((100% - 75rem) / 2)); gap: 2rem; }
     .logo { order: 0; }
-    .desktop-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 28px; flex: 1; font-weight: 700; }
+    .desktop-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 1.75rem; flex: 1; font-weight: 700; }
     .topbar-sok { order: 2; }
     .topbar-meny, .genvagar { display: none; }
-    .reseomrade { position: relative; padding-bottom: 32px; background: #0e1620 url('../img/tunnelbana-stockholm-1-1.jpg') center / cover; }
+    .reseomrade { position: relative; padding-bottom: 2rem; background: #0e1620 url('../img/tunnelbana-stockholm-1-1.jpg') center / cover; }
     .hero { background: transparent; }
-    .hero-bild { height: 230px; object-position: center; }
+    .hero-bild { height: 14.375rem; object-position: center; }
     .flikar { justify-content: center; }
-    .sokpanel { position: relative; max-width: 1200px; margin: auto; width: calc(100% - 80px); padding: 24px 32px 28px; display: grid; grid-template-columns: minmax(0,1fr) 44px minmax(0,1fr); column-gap: 16px; align-items: end; }
-    .sokrubrik { grid-column: 1 / -1; margin-bottom: 24px; }
+    .sokpanel { position: relative; max-width: 75rem; margin: auto; width: calc(100% - 5rem); padding: 1.5rem 2rem 1.75rem; display: grid; grid-template-columns: minmax(0,1fr) 2.75rem minmax(0,1fr); column-gap: 1rem; align-items: end; }
+    .sokrubrik { grid-column: 1 / -1; margin-bottom: 1.5rem; }
     .from-field { grid-column: 1; grid-row: 2; }
-    .vaxla { grid-column: 2; grid-row: 2; width: 44px; height: 44px; line-height: 44px; margin-bottom: 12px; transform: rotate(90deg); }
+    .vaxla { grid-column: 2; grid-row: 2; width: 2.75rem; height: 2.75rem; line-height: 2.75rem; margin-bottom: 0.75rem; transform: rotate(90deg); }
     .to-field { grid-column: 3; grid-row: 2; }
-    .falt-rad { grid-column: 1 / 3; grid-row: 3; max-width: 416px; gap: 16px; }
-    .knapp { grid-column: 3; grid-row: 3; width: auto; justify-self: end; margin-bottom: 12px; padding-inline: 32px; }
+    .falt-rad { grid-column: 1 / 3; grid-row: 3; max-width: 26rem; gap: 1rem; }
+    .knapp { grid-column: 3; grid-row: 3; width: auto; justify-self: end; margin-bottom: 0.75rem; padding-inline: 2rem; }
     .fel { grid-column: 1 / -1; grid-row: 4; }
-    .trafik { max-width: 1280px; padding: 32px 40px 24px; margin: auto; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); column-gap: 14px; }
+    .trafik { max-width: 80rem; padding: 2rem 2.5rem 1.5rem; margin: auto; display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); column-gap: 0.875rem; }
     .trafikrubrik, .uppdaterad { grid-column: 1 / -1; }
     .linjekort:nth-of-type(2) { grid-column: 1; grid-row: 3; }
     .linjekort:nth-of-type(3) { grid-column: 1; grid-row: 4; }
@@ -304,5 +304,5 @@ a { color: inherit; text-decoration: none; }
     .linjekort:nth-of-type(5) { grid-column: 2; grid-row: 5; }
     .linjekort:nth-of-type(6) { grid-column: 2; grid-row: 3; }
     .linjekort:nth-of-type(7) { grid-column: 2; grid-row: 4; }
-    .fot { display: flex; gap: 28px; padding: 16px max(40px, calc((100% - 1200px) / 2)); }
+    .fot { display: flex; gap: 1.75rem; padding: 1rem max(2.5rem, calc((100% - 75rem) / 2)); }
 }
