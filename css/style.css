@@ -256,3 +256,9 @@ body {
 }
 
 .etikett { display: block; }
+
+button { font-family: inherit; border: 0; }
+.topbar-sok, .topbar-meny { background: transparent; color: inherit; }
+a { color: inherit; text-decoration: none; }
+.knapp { display: block; width: 100%; }
+.fot-lank { display: block; }
