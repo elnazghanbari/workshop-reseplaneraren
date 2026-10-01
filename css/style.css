@@ -289,9 +289,9 @@ a { color: inherit; text-decoration: none; }
     .desktop-nav { order: 1; display: flex; align-items: center; flex-wrap: wrap; gap: 1.75rem; flex: 1; font-weight: 700; }
     .topbar-sok { order: 2; }
     .topbar-meny, .genvagar { display: none; }
-    .reseomrade { position: relative; padding-bottom: 2rem; background: #0e1620 url('../img/tunnelbana-stockholm-1-1.jpg') center / cover; }
+    .reseomrade { position: relative; padding-bottom: 2rem; background: #0e1620 url('../img/tunnelbana-stockholm-1-1.jpg') center bottom / cover no-repeat; }
     .hero { background: transparent; }
-    .hero-bild { height: 14.375rem; object-position: center; }
+    .hero-bild { height: 14.375rem; visibility: hidden; }
     .flikar { justify-content: center; }
     .sokpanel { position: relative; max-width: 75rem; margin: auto; width: calc(100% - 5rem); padding: 1.5rem 2rem 1.75rem; display: grid; grid-template-columns: minmax(0,1fr) 2.75rem minmax(0,1fr); column-gap: 1rem; align-items: end; }
     .sokrubrik { grid-column: 1 / -1; margin-bottom: 1.5rem; }
