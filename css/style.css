@@ -316,3 +316,5 @@ a { color: inherit; text-decoration: none; }
     .linjekort { gap: .5rem; }
     .storningslage { width: 100%; margin-left: 2rem; }
 }
+
+.topbar-sok, .topbar-meny { min-width: 2.75rem; min-height: 2.75rem; }
