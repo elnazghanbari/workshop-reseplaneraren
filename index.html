@@ -21,7 +21,7 @@
           <line x1="15.8" y1="15.8" x2="21" y2="21" />
         </svg>
         <span>Sök</span>
-    </button>
+      </button>
       <img src="img/logo.svg" class="logo" />
       <button class="topbar-meny">
         <span>Meny</span>
@@ -37,7 +37,7 @@
           <line x1="3" y1="12" x2="21" y2="12" />
           <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
-    </button>
+      </button>
     </nav>
 
     <div class="hero">
@@ -54,28 +54,40 @@
 
         <div class="falt">
           <label for="from" class="etikett">Från</label>
-          <input type="text" class="input" id="from" />
+          <input
+            type="text"
+            class="input"
+            id="from"
+            autocomplete="street-address"
+          />
         </div>
 
         <button class="vaxla">⇅</button>
 
         <div class="falt">
           <label for="to" class="etikett">Till</label>
-          <input type="text" class="input" id="to" />
+          <input
+            type="text"
+            class="input"
+            id="to"
+            autocomplete="street-address"
+          />
         </div>
 
         <div class="falt-rad">
           <div class="falt">
             <label for="date" class="etikett">Datum</label>
-            <input type="text" class="input" id="date" />
+            <input type="date" class="input" id="date" />
           </div>
           <div class="falt">
             <label for="tid" class="etikett">Tid</label>
-            <input type="date" class="input" id="tid" />
+            <input type="time" class="input" id="tid" />
           </div>
         </div>
 
-        <div class="fel"></div>
+        <!--/*A11Y-4*/-->
+        <div class="fel" role="alert">Vänligen fyll i fältet</div>
+        <br />
 
         <button class="knapp">Sök resa</button>
       </form>
