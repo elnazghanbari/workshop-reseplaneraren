@@ -40,24 +40,24 @@
 
         <div class="falt">
             <label class="etikett" for="from">Från</label>
-            <input type="text" class="input" id="from" name="from">
+            <input type="text" class="input" id="from" name="from" autocomplete="section-from street-address" required>
         </div>
 
         <button type="button" class="vaxla" aria-label="Byt plats på Från och Till">⇅</button>
 
         <div class="falt">
             <label class="etikett" for="to">Till</label>
-            <input type="text" class="input" id="to" name="to">
+            <input type="text" class="input" id="to" name="to" autocomplete="section-to street-address" required>
         </div>
 
         <div class="falt-rad">
             <div class="falt">
                 <label class="etikett" for="date">Datum</label>
-                <input type="text" class="input" id="date" name="date">
+                <input type="date" class="input" id="date" name="date" required>
             </div>
             <div class="falt">
                 <label class="etikett" for="time">Tid</label>
-                <input type="text" class="input" id="time" name="time">
+                <input type="time" class="input" id="time" name="time" required>
             </div>
         </div>
 
