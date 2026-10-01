@@ -10,6 +10,13 @@ body {
     color: #12151a;
     background-color: #ffffff;
 }
+ /*Add an effect on click*/
+input:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #111;
+  outline-offset: 3px;
+}
 
 /* --- Topbar --- */
 
@@ -30,6 +37,9 @@ body {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    border: none;
+    background: transparent;
+    color: white;
 }
 
 .ikon {
@@ -72,6 +82,7 @@ body {
     color: #ffffff;
     cursor: pointer;
     white-space: nowrap;
+    border: none;
 }
 
 .flik.aktiv {
@@ -130,7 +141,7 @@ body {
 .vaxla {
     width: 36px;
     height: 36px;
-    margin: 0 auto 12px;
+    margin: 0 50% 12px;
     border-radius: 50%;
     background-color: #007bb5;
     color: #ffffff;
@@ -138,6 +149,7 @@ body {
     line-height: 36px;
     text-align: center;
     cursor: pointer;
+    border: none;
 }
 
 .fel {
@@ -155,6 +167,7 @@ body {
     text-align: center;
     padding: 14px;
     cursor: pointer;
+    border: none;
 }
 
 /* --- Genvägar --- */
