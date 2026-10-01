@@ -8,7 +8,12 @@
 </head>
 <body>
 
-    <header class="topbar">
+    <header>
+    <nav class="utility" aria-label="Övrig navigation">
+        <div class="utility-inner"><div><a href="#privat" aria-current="page">Privat</a><a href="#foretag">Företag</a></div>
+        <div><a href="#english" lang="en">English</a><a href="#teckensprak">Teckenspråk</a><a href="#lattlast">Lättläst</a><a href="#logga-in">Logga in</a></div></div>
+    </nav>
+    <div class="topbar">
         <button type="button" class="topbar-sok">
             <svg aria-hidden="true" class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
                 <circle cx="11" cy="11" r="6.5"/>
@@ -17,6 +22,9 @@
             <span>Sök</span>
         </button>
         <img src="img/logo.svg" class="logo" alt="Stadstrafiken">
+        <nav class="desktop-nav" aria-label="Huvudnavigation">
+            <a href="#reseplanering">Reseplanering</a><a href="#biljetter">Biljetter</a><a href="#kundservice">Kundservice</a><a href="#aktuellt">Aktuellt</a>
+        </nav>
         <button type="button" class="topbar-meny">
             <span>Meny</span>
             <svg aria-hidden="true" class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
@@ -25,9 +33,11 @@
                 <line x1="3" y1="18" x2="21" y2="18"/>
             </svg>
         </button>
+    </div>
     </header>
 
     <main>
+    <div class="reseomrade">
     <div class="hero">
         <img src="img/tunnelbana-stockholm-1-1.jpg" class="hero-bild" alt="">
         <div class="flikar">
@@ -39,14 +49,14 @@
     <form class="sokpanel" action="#reseplanering" method="get">
         <h1 class="sokrubrik" id="reseplanering">Vart vill du åka?</h1>
 
-        <div class="falt">
+        <div class="falt from-field">
             <label class="etikett" for="from">Från</label>
             <input type="text" class="input" id="from" name="from" autocomplete="section-from street-address" required>
         </div>
 
         <button type="button" class="vaxla" aria-label="Byt plats på Från och Till">⇅</button>
 
-        <div class="falt">
+        <div class="falt to-field">
             <label class="etikett" for="to">Till</label>
             <input type="text" class="input" id="to" name="to" autocomplete="section-to street-address" required>
         </div>
@@ -67,6 +77,7 @@
         <button type="submit" class="knapp">Sök resa</button>
     </form>
 
+    </div>
     <nav class="genvagar" aria-label="Huvudnavigation">
         <a class="genvag" href="#reseplanering">Reseplanering<span class="pil" aria-hidden="true">→</span></a>
         <a class="genvag" href="#biljetter">Biljetter<span class="pil" aria-hidden="true">→</span></a>
