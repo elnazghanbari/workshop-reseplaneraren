@@ -60,7 +60,7 @@ body {
 .flikar {
     display: flex;
     padding: 0 1rem;
-    margin-top: -48px;
+    margin-top: -3rem;
     position: relative;
 }
 
@@ -127,6 +127,7 @@ body {
 }
 
 .vaxla {
+    display: block;
     width: 2.25rem;
     height: 2.25rem;
     margin: 0 auto 0.75rem;
