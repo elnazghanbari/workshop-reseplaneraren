@@ -143,7 +143,7 @@ body {
     font-family: inherit;
     font-size: 16px;
     padding: 13px 12px;
-    border: 1px solid #d8dde2;
+    border: 1px solid #637788; /* Ändrade kontrasten för att uppfylla WCAG*/
     background-color: #ffffff;
 }
 
@@ -246,7 +246,7 @@ body {
 
 .uppdaterad {
     font-size: 14px;
-    color: #9a9a9a;
+    color: #757575; /*Ökar kontrasten för att fylla WCAG  */
     margin-bottom: 14px;
 }
 
@@ -298,7 +298,7 @@ body {
 
 .fot-lank {
     font-size: 14px;
-    color: #9a9a9a;
+    color: #757575; /*Ökar kontrasten för att fylla WCAG  */
     padding: 8px 0;
     cursor: pointer;
 }
