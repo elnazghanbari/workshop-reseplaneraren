@@ -5,77 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Stadstrafiken</title>
-  </head>
-  <body>
-    <header>
-    <nav class="topbar">
-        <div class="topbar-sok">
-        <svg
-          class="ikon"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.2"
-          stroke-linecap="round"
-        >
-          <circle cx="11" cy="11" r="6.5" />
-          <line x1="15.8" y1="15.8" x2="21" y2="21" />
-        </svg>
-        <span>Sök</span>
-      </div>
-      <img src="img/logo.svg" class="logo" />
-      <div class="topbar-meny">
-        <span>Meny</span>
-        <svg
-          class="ikon"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.2"
-          stroke-linecap="round"
-        >
-          <line x1="3" y1="6" x2="21" y2="6" />
-          <line x1="3" y1="12" x2="21" y2="12" />
-          <line x1="3" y1="18" x2="21" y2="18" />
-        </svg>
-      </div>
-    </nav>
-    
-    </header>
+</head>
+<body>
 
-    <main>
-      <div class="hero">
-        <img src="img/tunnelbana-stockholm-1-1.jpg" class="hero-bild" />
+    <div class="topbar">
+        <div class="topbar-sok">
+            <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                <circle cx="11" cy="11" r="6.5"/>
+                <line x1="15.8" y1="15.8" x2="21" y2="21"/>
+            </svg>
+            <span>Sök</span>
+        </div>
+        <img src="img/logo.svg" class="logo">
+        <div class="topbar-meny">
+            <span>Meny</span>
+            <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+        </div>
+    </div>
+
+    <div class="hero">
+        <img src="img/tunnelbana-stockholm-1-1.jpg" class="hero-bild">
         <div class="flikar">
-          <div class="flik aktiv">Sök resa</div>
-          <div class="flik">Sök avgångar</div>
+            <div class="flik aktiv">Sök resa</div>
+            <div class="flik">Sök avgångar</div>
         </div>
       </div>
 
-      <div class="sokpanel">
-        <h1 class="sokrubrik">Vart vill du åka?</h1>
+    <div class="sokpanel">
+        <div class="sokrubrik">Vart vill du åka?</div>
 
         <div class="falt">
-          <div class="etikett">Från</div>
-          <input type="text" class="input" />
+            <div class="etikett">Från</div>
+            <input type="text" class="input">
         </div>
 
         <div class="vaxla">⇅</div>
 
         <div class="falt">
-          <div class="etikett">Till</div>
-          <input type="text" class="input" />
+            <div class="etikett">Till</div>
+            <input type="text" class="input">
         </div>
 
         <div class="falt-rad">
-          <div class="falt">
-            <div class="etikett">Datum</div>
-            <input type="text" class="input" />
-          </div>
-          <div class="falt">
-            <div class="etikett">Tid</div>
-            <input type="text" class="input" />
-          </div>
+            <div class="falt">
+                <div class="etikett">Datum</div>
+                <input type="text" class="input">
+            </div>
+            <div class="falt">
+                <div class="etikett">Tid</div>
+                <input type="text" class="input">
+            </div>
         </div>
 
         <div class="fel" role="alert">
@@ -84,14 +67,14 @@
         </div>
 
         <div class="knapp">Sök resa</div>
-      </div>
+    </div>
 
-      <div class="genvagar">
+    <div class="genvagar">
         <div class="genvag">Reseplanering<span class="pil">→</span></div>
         <div class="genvag">Biljetter<span class="pil">→</span></div>
         <div class="genvag">Kundservice<span class="pil">→</span></div>
         <div class="genvag">Aktuellt<span class="pil">→</span></div>
-      </div>
+    </div>
 
       <div class="trafik">
         <h2 class="trafikrubrik">Trafikläget just nu</h2>
