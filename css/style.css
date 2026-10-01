@@ -113,8 +113,8 @@ body {
   font-family: inherit;
   font-size: 16px;
   padding: 13px 12px;
-  border: 1px solid #d8dde2;
-  background-color: #ffffff;
+  border: 2px solid #888;
+  background-color: #;ffffff;
 }
 
 :focus-visible {
@@ -215,7 +215,7 @@ body {
 
 .uppdaterad {
   font-size: 14px;
-  color: #9a9a9a;
+  color: #666666;
   margin-bottom: 14px;
 }
 
@@ -281,7 +281,7 @@ body {
 
 .fot-lank {
   font-size: 14px;
-  color: #9a9a9a;
+  color: #666666;
   padding: 8px 0;
   cursor: pointer;
 }
