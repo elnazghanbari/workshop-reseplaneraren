@@ -304,6 +304,15 @@ a:focus-visible {
     margin-bottom: 1rem;
 }
 
+@media (max-width: 64rem) {
+    .genvagar-topbar {
+        display: none;
+    }
+
+    .toppfalt-knappar {
+        display: none;
+    }
+}
 
 /*Desktop*/
 @media (min-width: 64rem) {
@@ -338,28 +347,108 @@ a:focus-visible {
         gap: 1.6rem;
         margin-bottom: 1.6rem;
     }
-    
+
     .resa-rad .falt {
-    margin-bottom: 0;
-    min-width: 0;
+        margin-bottom: 0;
+        min-width: 0;
     }
 
     .vaxla {
-    width: 4.4rem;
-    height: 4.4rem;
-    margin: 0;
-    line-height: 1;
-    align-self: end;
-    transform: rotate(90deg);
+        width: 4.4rem;
+        height: 4.4rem;
+        margin: 0;
+        line-height: 1;
+        align-self: end;
+        transform: rotate(90deg);
+    }
+
+    .sok-actions {
+        display: grid;
+        grid-template-columns: minmax(0, 41.6rem) auto;
+        align-items: end;
+        gap: 1.6rem;
+    }
+
+    .falt-rad {
+        grid-column: 1;
+        grid-row: 1;
+        gap: 1rem;
+    }
+
+    .falt-rad .falt {
+        min-width: 0;
+        margin-bottom: 0;
+    }
+
+    .knapp {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 0;
+    }
+
+    .trafik {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.4rem;
+        padding: 3.2rem 0;
+    }
+
+    .trafikrubrik,
+    .uppdaterad {
+        grid-column: 1 / -1;
+        margin: 0;
+    }
+
+    .trafikrubrik {
+        font-size: 1.75rem;
+    }
+
+    .linjekort {
+        margin-bottom: 0;
+        min-width: 0;
+        gap: 0.8rem;
+    }
+
+    .linjenamn {
+        white-space: normal;
+        min-width: 0;
+    }
+
+    .linjekort>span:last-child {
+        font-size: 1.4rem;
+    }
+
+    .fot {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3.2rem;
+        padding-block: 1.6rem;
+    }
+
+    .fot br {
+        display: none;
     }
 
 
+    main {
+        display: grid;
+        grid-template-areas: "bild";
+
+    }
+
+    .genvagar {
+        display: none;
+    }
 
 
+    .genvagar-topbar {
+        display: flex;
+        gap: 30px;
+        margin-right: auto;
+        padding-left: 50px;
+    }
 
 
-    
-    
     .toppfalt-knappar {
         display: flex;
         justify-content: space-between;
