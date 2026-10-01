@@ -10,12 +10,14 @@ body {
     color: #12151a;
     background-color: #ffffff;
 }
- /*Add an effect on click*/  /*A11Y-3*/
+
+/*Add an effect on click*/
+/*A11Y-3*/
 input:focus-visible,
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid #111;
-  outline-offset: 3px;
+    outline: 3px solid #111;
+    outline-offset: 3px;
 }
 
 /* --- Topbar --- */
@@ -82,7 +84,7 @@ a:focus-visible {
     color: #ffffff;
     cursor: pointer;
     white-space: nowrap;
-    border: none;
+    border: 1px solid #696969
 }
 
 .flik.aktiv {
@@ -154,10 +156,10 @@ a:focus-visible {
 
 /*A11Y-4*/
 .fel {
-  color: #a40000;
-  background-color: #fff0f0;
-  border-left: 4px solid #a40000;
-  padding: 1rem;
+    color: #a40000;
+    background-color: #fff0f0;
+    border-left: 4px solid #a40000;
+    padding: 1rem;
 }
 
 .knapp {
@@ -232,10 +234,21 @@ a:focus-visible {
     border-radius: 4px;
 }
 
-.tunnelbana { background-color: #12151a; }
-.pendel     { background-color: #007a5e; }
-.sparvagn   { background-color: #6a3f9e; }
-.buss       { background-color: #c8102e; }
+.tunnelbana {
+    background-color: #12151a;
+}
+
+.pendel {
+    background-color: #007a5e;
+}
+
+.sparvagn {
+    background-color: #6a3f9e;
+}
+
+.buss {
+    background-color: #c8102e;
+}
 
 .linjenamn {
     flex: 1 1 auto;
@@ -251,9 +264,17 @@ a:focus-visible {
     border-radius: 50%;
 }
 
-.status.ok      { background-color: #1b7a3d; }
-.status.varning { background-color: #c77700; }
-.status.info    { background-color: #4c5157; }
+.status.ok {
+    background-color: #1b7a3d;
+}
+
+.status.varning {
+    background-color: #c77700;
+}
+
+.status.info {
+    background-color: #4c5157;
+}
 
 /* --- Fot --- */
 
@@ -269,3 +290,9 @@ a:focus-visible {
     cursor: pointer;
 }
 
+/*Desktop*/
+@media (min_width: 650px) {
+    body {
+        max-width: 1200px;
+    }
+}
